@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "asset_id": "sei-cad-sample-001",
+  "geometry": {
+    "type": "B-Rep",
+    "bounding_box": {
+      "min": [-10.0, -10.0, 0.0],
+      "max": [10.0, 10.0, 25.0]
+    },
+    "faces_count": 42,
+    "edges_count": 128,
+    "vertices_count": 88,
+    "tolerances": {
+      "linear_mm": 0.001,
+      "angular_deg": 0.01
+    }
+  },
+  "telemetry": {
+    "coordinate_system": "Z-Up",
+    "lighting_anchor_vector": [0.5, -0.8, 1.0],
+    "target_camera_fov": 45.0,
+    "visual_drift_max_allowed": 0.005
+  }
+}
